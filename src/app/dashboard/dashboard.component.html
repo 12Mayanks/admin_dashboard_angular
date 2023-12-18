@@ -1,0 +1,165 @@
+<div id="section-1">
+    <div class="container-flex">
+        <mat-card class="card card-1">
+            <div class="heads">
+                <mat-card-header>26K &nbsp;<span>(-12.4% )</span></mat-card-header>
+                <div id="myDropdown">
+                    <div class="dropdown">
+                        <mat-icon (click)="toggleDropdown()">menu</mat-icon>
+                        <div *ngIf="isDropdownOpen" class="dropdown-content">
+                            <!-- Dropdown content goes here -->
+                            <a href="#">Option 1</a>
+                            <a href="#">Option 2</a>
+                            <a href="#">Option 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>User</p>
+            <!-- <div id="divChart">
+                <canvas id="myChart"></canvas>
+            </div> -->
+            <app-chart-one></app-chart-one>
+        </mat-card>
+        <mat-card class="card card-2">
+            <div class="heads">
+                <mat-card-header>$6.200 &nbsp;<span>( 40.9% )</span></mat-card-header>
+                <div id="myDropdown">
+                    <div class="dropdown">
+                        <mat-icon (click)="toggleDropdown()">menu</mat-icon>
+                        <div *ngIf="isDropdownOpen" class="dropdown-content">
+                            <!-- Dropdown content goes here -->
+                            <a href="#">Option 1</a>
+                            <a href="#">Option 2</a>
+                            <a href="#">Option 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Income</p>
+            <app-chart-two></app-chart-two>
+
+        </mat-card>
+        <mat-card class="card card-3">
+            <div class="heads">
+                <mat-card-header>2.49 &nbsp;<span>( 84.7% )</span></mat-card-header>
+                <div id="myDropdown">
+                    <div class="dropdown">
+                        <mat-icon (click)="toggleDropdown()">menu</mat-icon>
+                        <div *ngIf="isDropdownOpen" class="dropdown-content">
+                            <!-- Dropdown content goes here -->
+                            <a href="#">Option 1</a>
+                            <a href="#">Option 2</a>
+                            <mat-divider></mat-divider>
+                            <a href="#">Option 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Conversion Rate</p>
+            <app-chart-three></app-chart-three>
+        </mat-card>
+        <mat-card class="card card-4">
+            <div class="heads">
+                <mat-card-header>44K &nbsp;<span>( -23.6% )</span></mat-card-header>
+                <div id="myDropdown">
+                    <div class="dropdown">
+                        <mat-icon (click)="toggleDropdown()">menu</mat-icon>
+                        <div *ngIf="isDropdownOpen" class="dropdown-content">
+                            <!-- Dropdown content goes here -->
+                            <a href="#">Option 1</a>
+                            <a href="#">Option 2</a>
+                            <a href="#">Option 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Sessions</p>
+            <app-chart-four></app-chart-four>
+        </mat-card>
+    </div>
+</div>
+
+<div id="section-2">
+    <div class="container-1 mat-card mat-elevation-z8 ">
+        <h1 class="container-h1">Invoices</h1>
+        <h4 class="container-h4">December 2023</h4>
+        <app-invoice-table></app-invoice-table>
+    </div>
+    <div class="container-2 mat-card mat-elevation-z8">
+        <h1 class="container-h1">Income</h1>
+        <h4 class="container-h4">January - December 2023</h4>
+        <!-- <div class="chart"> -->
+        <app-chart-five></app-chart-five>
+        <!-- </div> -->
+    </div>
+</div>
+
+<div id="section-2">
+    <div class="container-3 mat-card mat-elevation-z8 ">
+        <h1 class="container-h1">Client Survay </h1>
+        <app-chart-six></app-chart-six>
+    </div>
+    <div class="container-4 mat-card mat-elevation-z8">
+        <h1 class="container-h1 ">Support Tickets Survay</h1>
+        <app-chart-seven></app-chart-seven>
+    </div>
+</div>
+
+<div id="section-2 ">
+    <div class="container-5  mat-card mat-elevation-z8">
+        <h1 class="container-h1">Product Report</h1>
+        <div class="sub-container">
+            <div class="inner-cont">
+                <div class="income">
+                    <h2 class="innercont-h2">$1,17,289</h2>
+                    <h3 class="innercont-h3 orange">Total Income</h3>
+                    <p class="innercont-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                        ligula eget dolor.</p>
+                </div>
+                <div class="expense">
+                    <h2 class="innercont-h2">$1,17,289</h2>
+                    <h3 class="innercont-h3 green">Total Expense</h3>
+                    <p class="innercont-p">Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+                        tellus.</p>
+                </div>
+            </div>
+            <div class="saleProgress">
+                <h2 class="saleProgress-h2">Country Wise Sales</h2>
+                <div class="contrysale">
+                    <div class="sale">
+                        <span class="sellContry">India</span><mat-progress-bar mode="determinate"
+                            value="40"></mat-progress-bar><span class="sellNo">154</span>
+                    </div>
+                    <div class="sale">
+                        <span class="sellContry">USA</span><mat-progress-bar mode="determinate" color="warn"
+                            value="88"></mat-progress-bar><span class="sellNo">423</span>
+                    </div>
+                    <div class="sale">
+                        <span class="sellContry">Shrilanka
+                        </span><mat-progress-bar mode="determinate" class="orange-progress"
+                            value="48"></mat-progress-bar><span class="sellNo">265</span>
+                    </div>
+                    <div class="sale">
+                        <span class="sellContry">Australia</span><mat-progress-bar mode="determinate"
+                            class="orange-progress" value="58"></mat-progress-bar><span class="sellNo">341</span>
+                    </div>
+                    <div class="sale">
+                        <span class="sellContry">Japan</span><mat-progress-bar mode="determinate" color="accent"
+                            value="43"></mat-progress-bar><span class="sellNo">238</span>
+                    </div>
+                    <div class="sale">
+                        <span class="sellContry">Itely</span><mat-progress-bar mode="determinate"
+                            value="39"></mat-progress-bar><span class="sellNo">153</span>
+                    </div>
+                </div>
+            </div>
+            <div class="progresschart">
+                <div class="sellcharts">
+                    <app-chart-eight></app-chart-eight>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

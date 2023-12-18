@@ -1,0 +1,223 @@
+@import "/node_modules/@coreui/chartjs/scss/coreui-chartjs.scss";
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 22%;
+    margin: 1rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.card-1 {
+    background-color: rgb(17, 19, 131);
+}
+
+.card-2 {
+    background-color: #007679de;
+}
+
+.card-3 {
+    background-color: rgb(255, 199, 31);
+}
+
+.card-4 {
+    background-color: rgb(255, 52, 52);
+}
+
+.heads {
+    display: flex;
+    padding: 0;
+}
+
+mat-card-header {
+    font-size: 1.5rem;
+    font-weight: 600 !important;
+    padding: 0;
+    flex: 2;
+}
+
+mat-card-header span {
+    font-size: 1rem;
+    font-weight: 400 !important;
+    padding: 0;
+}
+
+
+.card p {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    ;
+}
+
+/* dropdown.component.css */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: #f9f9f9;
+    width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.dropdown-content a:hover {
+    background-color: #030171;
+    color: #f9f9f9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#section-2 {
+    display: flex;
+}
+
+.container-1 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin: 10px;
+    flex: 2;
+
+}
+
+.container-2 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin: 10px;
+    flex: 1;
+}
+
+.container-h1 {
+    color: #323232;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.container-h4 {
+    color: #1f1f1f;
+    font-size: 1rem;
+    // font-weight: bold;
+    margin-bottom: 0;
+}
+
+.container-3 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin: 10px;
+    flex: 1;
+}
+
+.container-4 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin: 10px;
+    flex: 1;
+}
+
+.container-5 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin: 10px;
+}
+.sub-container{
+    display: flex;
+}
+.inner-cont{
+    align-items: center;
+    padding: 0.8rem;
+    flex: 1;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.innercont-h2{
+font-size: 1.5rem;
+color: #1f1f1f;
+margin-bottom: 0px;
+}
+.innercont-h3{
+font-size: 1.2rem;
+margin-bottom: 0px;
+font-weight: 500;
+}
+.orange{
+    color: orange;
+}
+.green{
+    color: rgb(0, 154, 38);
+}
+.innercont-p{
+font-size: 0.8rem;
+color: #1f1f1f;
+}
+.saleProgress{
+flex: 1;
+margin: 0.5rem;
+}
+.progresschart{
+flex: 1;
+margin: 0.5rem;
+}
+.sale{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.saleProgress-h2{
+    font-size: 1rem;
+color: #1f1f1f;
+}
+.sale span{
+    margin: 0.5rem;
+}
+.sellContry{
+    font-size: 0.8rem;
+    color: grey;
+}
+.sellNo{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+}
+
+.orange-progress .mat-progress-bar-fill::after {
+    background-color: yellow !important;
+}
+
+.custom-blue ::after {
+    border-color: blue !important;
+}
